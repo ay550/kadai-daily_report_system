@@ -1,11 +1,11 @@
-//tyle.css はメッセージボード独自のCSS指定をするためのファイル
 
 @CHARSET "UTF-8";
 
 body {
     color: #333333;
-    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
+
 
 #header {
     width: 100%;
@@ -161,5 +161,7 @@ table#report_list .report_title {
 table#report_list .report_action {
     width: 13%;
 }
-
+pre {
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
 
